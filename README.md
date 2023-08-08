@@ -7,7 +7,7 @@ This project demonstrates the creation of an AWS infrastructure using Terraform.
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
+- [Getting Started](#getting-started) 
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Customization](#customization)
