@@ -10,6 +10,7 @@ This project demonstrates the creation of an AWS infrastructure using Terraform.
 - [Configure AWS Credentials](#Configure-AWS-Credentials)
 - [Project Highlights](#project-highlights)
 - [Terraform Commands](#terraform-commands)
+- [Push Code files from Local to GitHub Repo using Git](git-section)
 - [License](#license)
 
 ## Prerequisites
@@ -132,7 +133,9 @@ terraform destroy
 When you're finished experimenting, destroy the resources and avoid unnecessary charges.
 
 
-## Adding all code files from the local machine to Online GitHub Repo by using the Version control "Git"
+## Git Section
+
+Adding all code files from the local machine to Online GitHub Repo by using the Version control "Git"
 
 Open the Git bash and type these commands step by step 
 
