@@ -56,4 +56,61 @@ aws configure
 
 ```Secret access key:```
 
+# Terraform Infrastructure Project
+
+This project demonstrates the creation of an AWS infrastructure using Terraform. It includes the setup of a Virtual Private Cloud (VPC), subnets, security groups, EC2 instances, and an Application Load Balancer (ALB) to distribute traffic between instances. The instances run a simple web application that serves dynamic content.
+
+## Project Highlights
+
+### Provider Configuration (provider.tf):
+
+- The AWS provider version is specified as "5.11.0". Ensure compatibility with your Terraform version.
+- Ensure AWS credentials are properly configured using environment variables, AWS CLI configuration, or other methods.
+
+### Variables (variable.tf):
+
+- The `variable.tf` file defines a variable named `cidr` with a default value. This variable is used for the CIDR block of the VPC, enhancing flexibility and reusability.
+
+### Main Configuration (main.tf):
+
+- The main Terraform configuration file, `main.tf`, defines key resources such as VPC, subnets, security groups, instances, and the ALB.
+- Consider using variables to make subnet CIDR blocks configurable.
+- User data scripts are used to configure instances; however, they are currently identical for both instances.
+
+### User Data Scripts (userdata1.sh and userdata2.sh):
+
+- User data scripts (`userdata1.sh` and `userdata2.sh`) install Apache, AWS CLI, and create a simple HTML file.
+- A text color animation adds an interesting touch.
+- Instance IDs are retrieved and displayed in the HTML content.
+
+### Outputs (main.tf):
+
+- The `main.tf` file includes an output block that exports the DNS name of the ALB, allowing easy access to the load balancer's endpoint.
+
+### Load Balancer Configuration (main.tf):
+
+- An ALB is configured with a target group, listener, and target group attachments.
+- This setup enables the distribution of incoming traffic between the two EC2 instances.
+
+## Usage
+
+Follow the instructions in the [Usage section](#usage) to deploy the AWS infrastructure using Terraform.
+
+## Customization
+
+Feel free to customize the project according to your requirements:
+
+- Modify subnet CIDR blocks and other parameters in `main.tf`.
+- Update user data scripts to tailor instance configurations.
+- Explore additional AWS resources and Terraform features to expand the project.
+
+## Cleanup
+
+When you're finished experimenting, use the steps in the [Cleanup section](#cleanup) to destroy the resources and avoid unnecessary charges.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
 
