@@ -132,12 +132,93 @@ terraform destroy
 When you're finished experimenting, destroy the resources and avoid unnecessary charges.
 
 
+## Adding all code files from the local machine to Online GitHub Repo by using the Version control "Git"
+
+
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 
 Feel free to customize the content further to provide more details about your project, its purpose, and any additional information you'd like to share.
+
+Open the Git bash and type these commands step by step 
+
+```
+cd Downloads/
+```
+
+```
+git clone https://github.com/vaibhavkapase1302/Terraform-Infrastructure-Project.git
+```
+
+```
+ls
+```
+
+```
+ cd Terraform-Infrastructure-Project
+```
+
+```
+ cd ..
+```
+
+```
+cd Downloads
+```
+
+```
+cd  Terraform-Project-AN
+```
+
+```
+ls
+```
+
+```
+cp * "C:\Users\HP\Downloads\Terraform-Infrastructure-Project"
+```
+
+```
+ls
+```
+
+```
+pwd
+```
+
+```
+cd ..
+```
+
+```
+cd Terraform-Infrastructure-Project
+```
+
+```
+ls
+```
+
+```
+git add .
+```
+
+```
+git commit -m "All files are added in the main repo from local machine"
+```
+
+```
+git push origin main
+```
+
+```c
+ls
+```
+
+
 
 
 
