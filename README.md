@@ -52,8 +52,8 @@ Ensure you have your AWS credentials set up. You can configure them using enviro
 aws configure
 ```
 
-```Access key ID```
+```Access key ID:```
 
-```Secret access key```
+```Secret access key:```
 
 
