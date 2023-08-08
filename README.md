@@ -10,7 +10,7 @@ This project demonstrates the creation of an AWS infrastructure using Terraform.
 - [Configure AWS Credentials](#Configure-AWS-Credentials)
 - [Project Highlights](#project-highlights)
 - [Terraform Commands](#terraform-commands)
-- [Push Code files from Local to GitHub Repo using Git](git-section)
+- [Push Code files from Local to GitHub Repo using Git](Git-Section)
 - [License](#license)
 
 ## Prerequisites
