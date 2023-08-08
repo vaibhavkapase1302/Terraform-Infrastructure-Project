@@ -87,9 +87,6 @@ aws configure
 - An ALB is configured with a target group, listener, and target group attachments.
 - This setup enables the distribution of incoming traffic between the two EC2 instances.
 
-## Usage
-
-Follow the instructions in the [Usage section](#usage) to deploy the AWS infrastructure using Terraform.
 
 ## Customization
 
