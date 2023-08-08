@@ -137,4 +137,9 @@ When you're finished experimenting, destroy the resources and avoid unnecessary 
 This project is licensed under the [MIT License](LICENSE).
 
 
+Remember to replace `<repository_url>` in the "Getting Started" section with the actual URL of your GitHub repository.
+
+Feel free to customize the content further to provide more details about your project, its purpose, and any additional information you'd like to share.
+
+
 
