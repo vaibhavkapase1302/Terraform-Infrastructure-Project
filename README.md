@@ -104,9 +104,41 @@ Feel free to customize the project according to your requirements:
 - Update user data scripts to tailor instance configurations.
 - Explore additional AWS resources and Terraform features to expand the project.
 
-## Cleanup
 
-When you're finished experimenting, use the steps in the [Cleanup section](#cleanup) to destroy the resources and avoid unnecessary charges.
+## Terraform Commands:
+
+Initialize Terraform:
+
+```
+terraform init
+```
+
+Validate the Configuration:
+
+```
+terraform validate
+```
+
+Plan the Infrastructure:
+
+```
+terraform plan
+```
+
+Apply the Configuration:
+
+```
+terraform apply
+```
+
+Cleanup:
+
+```
+terraform destroy
+```
+
+When you're finished experimenting, destroy the resources and avoid unnecessary charges.
+
 
 ## License
 
