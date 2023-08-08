@@ -134,17 +134,7 @@ When you're finished experimenting, destroy the resources and avoid unnecessary 
 
 ## Adding all code files from the local machine to Online GitHub Repo by using the Version control "Git"
 
-
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
-Feel free to customize the content further to provide more details about your project, its purpose, and any additional information you'd like to share.
-
-## Open the Git bash and type these commands step by step 
+Open the Git bash and type these commands step by step 
 
 ```
 cd Downloads/
@@ -218,6 +208,11 @@ git push origin main
 ls
 ```
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Feel free to customize the content further to provide more details about your project, its purpose, and any additional information you'd like to share.
 
 
 
