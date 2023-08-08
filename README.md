@@ -8,7 +8,7 @@ This project demonstrates the creation of an AWS infrastructure using Terraform.
 - [Getting Started](#getting-started) 
 - [Project Structure](#project-structure)
 - [Configure AWS Credentials](#Configure-AWS-Credentials)
-- [Project Highlights](Project-Highlights)
+- [Project Highlights](##Project-Highlights)
 - [Terraform Commands](#Terraform-Commands)
 - [License](#license)
 
