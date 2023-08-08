@@ -1,8 +1,6 @@
-# Terraform-Infrastructure-Project
-
 # Terraform Infrastructure Project
 
-This project demonstrates the creation of an AWS infrastructure using Terraform. It sets up a Virtual Private Cloud (VPC) with subnets, EC2 instances, and an Application Load Balancer (ALB). The instances run a simple web application that serves dynamic content.
+This project demonstrates the creation of an AWS infrastructure using Terraform. It includes the setup of a Virtual Private Cloud (VPC), subnets, security groups, EC2 instances, and an Application Load Balancer (ALB) to distribute traffic between instances. The instances run a simple web application that serves dynamic content.
 
 ## Table of Contents
 
@@ -56,9 +54,6 @@ aws configure
 
 ```Secret access key:```
 
-# Terraform Infrastructure Project
-
-This project demonstrates the creation of an AWS infrastructure using Terraform. It includes the setup of a Virtual Private Cloud (VPC), subnets, security groups, EC2 instances, and an Application Load Balancer (ALB) to distribute traffic between instances. The instances run a simple web application that serves dynamic content.
 
 ## Project Highlights
 
