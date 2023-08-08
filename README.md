@@ -144,7 +144,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 Feel free to customize the content further to provide more details about your project, its purpose, and any additional information you'd like to share.
 
-Open the Git bash and type these commands step by step 
+## Open the Git bash and type these commands step by step 
 
 ```
 cd Downloads/
