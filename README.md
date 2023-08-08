@@ -45,3 +45,15 @@ This project is organized into several key files, each serving a specific purpos
 
 Each of these files contributes to creating a cohesive and well-structured Terraform project that defines and deploys your desired AWS infrastructure.
 
+
+## Configure AWS Credentials: 
+Ensure you have your AWS credentials set up. You can configure them using environment variables, the AWS CLI, or other appropriate methods.
+``` 
+aws configure
+```
+
+```Access key ID```
+
+```Secret access key```
+
+
